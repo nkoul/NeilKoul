@@ -54,7 +54,7 @@ li>a{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar{
-	width: 625px;
+	width: auto;
 	height: 80px;
 	float:right;
 }
@@ -72,10 +72,23 @@ li>a{
 .container{
 	max-width:965px;
 	margin:0 auto;
-	background:#f9f9f9;
+	background:#afafaf;
 	font-size:24px;
 	padding:0px;
 }
+body{
+	background:#afafaf;
+}
+.introh{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:6vw;
+	color:white;
+	padding-top: 150px;
+	z-index:2;
+	text-align:center;
+	position: relative;
+}
+
 
 .aboutme{
 	font-size: 75px;
@@ -91,15 +104,7 @@ li>a{
     text-align:center;
     position: relative;
 }
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
+
 
 .projects{
 	font-size: 50px;
@@ -124,1188 +129,174 @@ li>a{
 .mainp{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
+
+
+/*footer*/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
 	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
 }
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
 }
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
 }
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
 	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
 }
 
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
+.footer-distributed h3 span{
+	color:  #5383d3;
 }
 
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
+/* Footer links */
 
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
 	text-decoration: none;
+	color:  inherit;
 }
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
 	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
 }
 
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
 }
 
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
 	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
 }
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
 }
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
 }
-*{
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
 	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
 }
 
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
-
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
+.footer-distributed .footer-company-about span{
 	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
 	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
-	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
-}
-
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
-
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
+	color: #ffffff;
 	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
-	margin: 0;
-	padding:0;
+	line-height: 35px;
 
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
 
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
+/* If you don't want the footer to be responsive, remove these media queries */
 
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
+@media (max-width: 880px) {
 
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
 
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
-	margin: 0;
-	padding:0;
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
 
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
-}
-
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
-
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
-	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
-}
-
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
-
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
-	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
-}
-
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
-
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-.parallaxtop {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallax {
-	height:500px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxme{
-	height:200px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.parallaxfoot{
-	height:100px;
-    padding-top:35px 35px;
-    background: transparent;
-}
-.navhead{
-	margin-top: 0;
-	float: top;
-	width: 100%;
-	height: 80px;
-	transition: background-color 1s ease 0s;
-	background: transparent;
-    z-index:3;
-   	position:fixed;
-}
-.navhead.opaque{
-	background-color:black;
-	transition: background-color 1s ease 0s;
-	position: fixed;
-	color:white;
-}
-.navhead a.opaque{
-	color:white;
-	list-style: none;
-	text-decoration: none;
-}
-.navbar>li{
-	width:125px;
-	list-style: none;
-	float: left;
-}
-li>a{
-	display: block;
-	color:black;
-	text-decoration: none;
-	line-height: 80px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar{
-	width: 625px;
-	height: 80px;
-	float:right;
-}
-#logo{
-	z-index: 2;
-	width: auto;
-	height: 80px;
-	float:left;
-}
-*{
-	margin: 0;
-	padding:0;
-
-}
-.container{
-	max-width:965px;
-	margin:0 auto;
-	background:#f9f9f9;
-	font-size:24px;
-	padding:0px;
-}
-
-.aboutme{
-	font-size: 75px;
-	padding-top: 50px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align:left;
-    position: relative;
-}
-.info{
-    z-index:2;
-    text-align:center;
-    position: relative;
-}
-.introh{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:100px;
-	color:white;
-	padding-top: 150px;
-	z-index:2;
-	text-align:center;
-	position: relative;
-}
-
-.projects{
-	font-size: 50px;
-	padding-top: 440px;
-	color: white;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index:2;
-    text-align: left;
-    position: relative;
-    text-decoration: none;
-}
-.projectlink:link {text-decoration: none;}
-.projectlink:visited {text-decoration: none;}
-.projectlink:hover {text-decoration: none;}
-.projectlink:active {text-decoration: none;}
-
-.aboutmelink:link{text-decoration: none;}
-.aboutmelink:visited{text-decoration: none;}
-.aboutmelink:hover{text-decoration: none;}
-.aboutmelink:active{text-decoration: none;}
-
-.mainp{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 }
